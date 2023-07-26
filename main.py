@@ -12,7 +12,7 @@ def print_item_recipe(item):
 
 
 if __name__ == '__main__':  # Blame PyCharm for the default file. That gutter run thooo
-    items = items.categorized_items()
+    items = ao_recipe_parser.categorized_items()
     for category in items.keys():
         itemset = set()
         print(category,':')
