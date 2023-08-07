@@ -15,3 +15,7 @@ This parses for recipes, and attempts to parse for item value. I had it skip fav
 Less simple, a solid 180 line file. This parses the items.json found in the root of the ao-bin-dumps repo: https://github.com/ao-data/ao-bin-dumps/tree/master
 
 Included is a main.py that is an example of how I might use it to get a list of recipes that can be used for my Albion Recipes repo.
+
+
+## ao_journal_parser.py
+This parses for journals' average loot return. It might be a bit messed up, I used it to get my laborer calc made.
